@@ -9,6 +9,11 @@ class UsersController < ApplicationController
       format.html
     end
   end
+  
+  #def test
+   # @user = User.all
+    #@user.inspect
+  #end
 
   def create
     @user = User.new(user_params)
